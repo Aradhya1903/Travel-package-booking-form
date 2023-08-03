@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2><strong>Travelling Form</strong></h2>
+    <marquee><h4>Hurry!Book your adventure!!!Fill the form below</h4></marquee>
+    
+       
+       <form id="myform">
+        <div><h3>Title</h3></div>
+        <select>
+            <option>Mr.</option>
+            <option>Mrs.</option>
+            <option>Ms.</option>
+        </select>
+        
+        <br>
+
+
+        <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="Contact">Contact:</label>
+  <input type="tel" id="Contact" name="Contact" required>
+  
+
+    
+
+  <div class="container">
+    <h3 class="Travel Details">Travel Details</h3>
+    <label for="destination">Destination country:</label>
+  <input type="text" id="Destination " name="destination country" required><br>
+
+
+  <label for="departure">Departure country:</label>
+  <input type="text" id="departure countary " name="departure country" required><br>
+  <label for="Departuredate&time">Departure (date and time):</label>
+  <input type="datetime-local" id="Departuredate&time" name="Departuredate&time"><br>
+  <label for="returndate&time">Return (date and time):</label>
+  <input type="datetime-local" id="returndate&time" name="returndate&time"><br>
+
+  
+  </div>
+    <div class="Type class ">
+  <div><h3><strong>Class Of Service</strong></h3></div>
+  <select>
+    <option>First Class</option>
+    <option>Economy Class</option>
+    <option>Business Class</option>
+</select><br>
+</div>
+
+
+<div class="Services">
+<h4>Please select the services that you need:</h4>
+<input type="checkbox" id="rental car" name="rental car" value="car">
+<label for="rental car"> Rental car</label>
+<input type="checkbox" id="Hotel Accomadations" name="Hotel Accomadations" value="Hotel">
+<label for="Hotel Accomadations">Hotel Accomadations</label>
+<input type="checkbox" id="Airline Tickets" name="Airline Tickets" value="Boat">
+<label for="Airline Tickets"> Airline Tickets</label>
+</div>
+  
+  
+  <div class="Traveller-Details">
+    <h3>Traveller's Details</h3>
+    <label for="preference">Preference Hotel:</label>
+  <input type="text" id="Preference Hotel" name="Preference Hotel" required><br>
+  
+  <label for="preference airline">Preference Airline:</label>
+  <input type="text" id="Preference Airline" name="Preference Airline" required><br>
+  
+  <textarea id="Additional Information" rows="4" placeholder="Additional Information"></textarea><br>
+  <font>*Please add aadhar card in PDF format.</font><br>
+
+  <label for="Aadhar card">Aadhar card:</label>
+  <input type="number" id="Aadhar" placeholder="Aadhar card" class="User" name="" required><br>
+  
+
+  <div class="Submit buttton">
+    <button type="submit">Submit form</button>
+  </div>
+  
+
+
+  </div>
+  
+  <div id="successMessage"></div>
+  
+  <span id="email.Error"></span>
+  <span id="Contact.Error"></span>
+ 
+
+
+  
+  
+   </form>
+       
+       
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User registration  Form</title>
+  <script src="script.js"></script>
+</head>
+<body>
+    <form id="registration-form">
+        <!-- Form fields will be added here -->
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+          </div>
+          <div>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" required>
+          </div>
+          <button type="submit">Register</button>
+          <style>#registration-form {
+            max-width: 400px;
+            margin: 0 auto;
+          }
+          
+          /* Style the form fields */
+          #registration-form div {
+            margin-bottom: 1rem;
+          }
+          
+          /* Style the labels */
+          #registration-form label {
+            display: block;
+            font-weight: bold;
+          }
+          
+          /* Style the input fields */
+          #registration-form input {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+          }
+          
+          /* Style the submit button */
+          #registration-form button {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+          }
+        </style>
+         
+      </form>
+</body>
+</html>
